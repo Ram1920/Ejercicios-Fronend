@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <style>
+      table,
+      tr,
+      td,
+      th {
+        border: 2px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th colspan="2">Nombre</th>
+        <th>Edad</th>
+        <th>Curso</th>
+      </tr>
+      <tr>
+        <th>Eduardo</th>
+        <td>Sorio Gómez</td>
+        <td rowspan="3">12</td>
+        <td>Priero D</td>
+      </tr>
+
+      <tr>
+        <th>Carlos</th>
+        <td>Pérez Díaz</td>
+        <td>Tercero A</td>
+      </tr>
+
+      <tr>
+        <th>Martín</th>
+        <td>Pereira Silva</td>
+        <td>Primero B</td>
+      </tr>
+    </table>
+
+    <caption>
+      Tabla con combinación de filas y columnas
+    </caption>
+    <table>
+      <tr>
+        <th>Calda 1</th>
+        <th>Celda 2</th>
+        <th>Celda 3</th>
+        <th>Celda 4</th>
+      </tr>
+
+      <tr>
+        <td rowspan="3">Celda 5</td>
+        <td>Celda 6</td>
+        <td colspan="2">Celda 7</td>
+      </tr>
+
+      <tr>
+        <td>Celda 8</td>
+        <td>Celda 9</td>
+        <td rowspan="2">Celda 10</td>
+      </tr>
+
+      <tr>
+        <td colspan="2">Celda 11</td>
+      </tr>
+    </table>
+  </body>
+</html>

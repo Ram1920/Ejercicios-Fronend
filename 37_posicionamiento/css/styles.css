@@ -1,0 +1,101 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: darkSlategray;
+
+}
+
+.parent {
+    margin: auto;
+    top: 30px;
+    height: 400px;
+    width: 400px;
+    background: skyblue;
+    position: relative;
+}
+
+.child {
+    width: 100px;
+    height: 100px;
+    background: tomato;
+    position: absolute;
+
+}
+
+.child:nth-child(1) {
+    position: absolute;
+    top: 150px;
+    left: 150px;
+}
+
+.child:nth-child(2) {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.child:nth-child(3) {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+.grand-child {
+    width: 40px;
+    height: 40px;
+    background: yellowgreen;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.balloom {
+    width: 40px;
+    height: 40px;
+    background: darkslateblue;
+    border-radius: 50px;
+    color: white;
+    font-size: smaller;
+    position: absolute;
+}
+
+.balloom:nth-child(1) {
+    top: -40px;
+    left: 30px;
+}
+
+.balloom:nth-child(2) {
+    right: -40px;
+    bottom: 30px;
+}
+
+.balloom:nth-child(3) {
+    bottom: -40px;
+    left: 30px;
+
+}
+
+.balloom:nth-child(4) {
+    top: 30px;
+    right: 100px;
+}
+
+.rectangulo {
+    width: 200px;
+    height: 40px;
+    background-color: goldenrod;
+    top: 40px;
+    right: 40px;
+    z-index: 3;
+}
+
+.fijo {
+    position: fixed;
+}
+
+.pegajoso {
+    position: sticky;
+}

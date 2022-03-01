@@ -1,0 +1,23 @@
+body {
+  color: lightseagreen;
+}
+
+section h1 small{
+  color: darkorchid;
+}
+
+#parrafo2{
+    color: forestgreen;
+}
+
+p#parrafo2{
+    color: deeppink;
+}
+
+.miclase{
+    color: magenta !important;
+}
+.otraclase{
+    color: mediumaquamarine;
+    background-color: mistyrose;
+}

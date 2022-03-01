@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form name="formulario" method="post" action="/send.php">
+      <label>Nombre de usuario</label>
+      <input
+        type="text"
+        name="nombre"
+        value=""
+        placeholder="user123"
+        autocomplete="off"
+      />
+
+      <label>Numero de teléfono</label>
+      <input
+       type="tel" 
+       name="telefono" 
+       placeholder="+xx xxx xxxxx" 
+       />
+
+      <label>Correo electrónico</label>
+      <input
+       type="email" 
+       name="correo" 
+       placeholder="nombre@dominio.com" 
+       />
+
+      <label>Página web</label>
+      <input
+       type="url" 
+       name="web" 
+       placeholder="https://pagina.com" 
+       />
+
+      <label>Password</label>
+      <input
+       type="password" 
+       name="pass" 
+       placeholder="Contraseña" 
+       />
+
+      <label>Edad</label>
+      <input
+       type="number" 
+       name="Edad" 
+       value="25" 
+       min="10" 
+       max="50" 
+       step="5" 
+       />
+
+      <label>Min. 10 - Max. 50</label>
+      <input
+        type="range"
+        name="Edad_range"
+        value="25"
+        min="10"
+        max="50"
+        step="5"
+      />
+
+      <input type="hidden" name="informacion" value="72625" />
+
+      <label>Bio</label>
+      <textarea
+       cols="15" 
+       rows="5" 
+       spellcheck="true" 
+       wrap="soft">
+     </textarea>
+
+     <label>Acepto terminos y condiciones</label>
+     <input type="checkbox" name="tyc">
+
+      <input type="submit" value="Enviar" />
+    </form>
+  </body>
+</html>

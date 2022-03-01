@@ -1,0 +1,29 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    padding: 10%;
+    background-color: gainsboro;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+
+#caja1  {
+    background: dodgerblue;
+}
+
+#caja2 {
+    background: goldenrod;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#caja3 {
+    background: indianred;
+}

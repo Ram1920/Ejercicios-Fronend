@@ -1,0 +1,43 @@
+a:link {
+  color: green;
+  font-weight: bold;
+}
+
+a:visited {
+  color: purple;
+  font-weight: bold;
+  text-decoration: none;
+}
+/* Usuario mueve el ratón sobre el enlace*/
+a:hover {
+  background-color: cyan;
+  padding: 2px;
+}
+/* Usuario mueve el ratón sobre un div y resalta todos los enlaces que contiene*/
+div:hover a {
+  background-color: steelblue;
+  color: white;
+}
+/*a:active, div:active {
+    border: 2px solid #ff0000;
+    padding: 2px;
+}*/
+
+ div,
+select {
+    margin: 8px;
+}
+/*label for checked inputs*/
+input:checked + label {
+    color: red;
+}
+input[type= "radio"]:checked {
+    box-shadow: 0 0 0 3px orange;
+}
+input[type= "checkbox"]:checked {
+    box-shadow: 0 0 0 3px hotpink;
+}
+option:checked {
+    text-shadow: 0 0 3px lime;
+    color: red;
+}

@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Varela Round', sans-serif;
+}
+
+h1 {
+    color: #163372;
+}
+
+body {
+padding: 40px;
+margin: 20px;
+border: 2px solid #b4b2b2;
+box-shadow: 2px 2px 2px 2px #b4b2b2;
+}
+
+input,select {
+    border: 2px solid #aaa8a8;
+    box-shadow:2px 2px 2px 2px #aaa8a8 ;
+  }
+
+  .negrita {
+      font-weight: bold;
+  }
+
+  label, select {
+      display: inline-block;
+      width: 100px;
+      width: 13.5%;
+  }
+
+  

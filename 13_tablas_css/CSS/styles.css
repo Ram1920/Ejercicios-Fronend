@@ -1,0 +1,15 @@
+caption{
+    color: blue;
+}
+.especial{
+    color: #FFD700;
+}
+.gree{
+    color: green;
+}
+.especial2,.red {
+    color: rgb(255,0,0 )
+}
+table {
+    border-collapse: collapse;
+}

@@ -1,0 +1,23 @@
+#datos_libros {
+  padding-right: 10px;
+  padding-left: 10px;
+  border: 2px solid #0f0;
+}
+
+.borde_gris {
+  border: 2px solid gray;
+}
+
+h1 {
+  padding: 10px;
+  margin: 30px 0px;
+  border: 2px solid #0000ff;
+}
+#subtitulos_libros {
+  padding: 5px;
+  margin: 15px 0px;
+}
+
+#datos_libros li {
+  margin: 15px;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,700&family=Nunito:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,300&family=Nunito:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Simple Event Registration</h1>
+      <p>Fil out the form to register to out event</p>
+      <hr />
+    </div>
+
+    <form name="formulario" method="post" action="/send.php">
+      <div class="form-text">
+        <label> Name </label>
+        <span id="nombre">
+          <input type="text" name="firts name" />
+        </span>
+
+        <span id="apellido">
+          <input type="text" name="last name" />
+        </span>
+      </div>
+      <br /><br /><br />
+
+      <label> Title </label>
+      <input type="text" name="titulo" />
+      <br /><br /><br />
+
+      <label> Company </label>
+      <input type="text" name="compañia" />
+      <br /><br /><br />
+
+      <label> E-mail </label>
+      <input type="email" name="correo" placeholder="ex.myname@example.com" />
+      <br /><br /><br />
+
+      <div class="form-text">
+        <label> Phone Number </label>
+        <span id="code">
+          <input type="text" name="area code" />
+        </span>
+
+        <span id="phone">
+          <input type="text" name="phone number" />
+        </span>
+      </div>
+      <br /><br /><br />
+
+      <div>
+        <p class="footer">Are you an existing customer?</p>
+
+        <input type="radio" name="yes" /> Yes
+        <input type="radio" name="no" /> No
+         <br /><br /><br />
+
+        <button type="submit">Register</button>
+      </div>
+    </form>
+  </body>
+</html>

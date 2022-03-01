@@ -1,0 +1,19 @@
+.bg-skye {
+    background-color: #90c4ee;
+}
+
+.bg-purple {
+    background-color: #c492e6;
+}
+
+.bg-red {
+    background-color: #db5656;
+}
+
+.bg-green {
+    background-color: #5edb38;
+}
+
+.row > * {
+    height: 40vh;
+}

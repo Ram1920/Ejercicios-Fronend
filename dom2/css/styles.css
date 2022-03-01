@@ -1,0 +1,15 @@
+* {
+    background-color: #20b5da;
+}
+
+ul li {
+    display: inline;
+  }
+
+li {
+    color: #c8f3fd;
+}
+
+ul > li:nth-child(3) {
+    color: #800080;
+}

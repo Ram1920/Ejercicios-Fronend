@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    color: #4682b4;
+    text-align: center;
+}
+
+.contenedor {
+    background-color: #4682b4;
+    margin: auto;
+    height: 20vh;
+    width: 80%;
+
+    /* Habilitar el flexbox */
+    display: flex;
+
+    /* Definir dirección y el desbordamiento */
+    flex-flow: row nowrap;
+
+    /* Alinamiento horizontal */
+    justify-content: center;
+
+    /* Alineación de una linea*/
+    align-items: flex-end;
+
+}
+
+.item {
+    color: white;
+    background-color: #808080;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000000;
+    box-sizing: border-box; 
+} 
+
+.item:nth-child(6) {
+    background-color: #ff0101;
+    height: auto;
+    align-self: stretch; 
+}

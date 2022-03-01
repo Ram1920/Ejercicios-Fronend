@@ -1,0 +1,30 @@
+li {
+  font-size: x-large;
+}
+
+ol li:first-child {
+  color: green;
+}
+
+ol li:last-child {
+  color: crimson;
+}
+
+/*even(pares) y odd(impares)
+n = 0 =>{0..9}
+
+3*0 + 3 = 3
+3*1 + 3 = 6
+3*2 + 3 = 9
+
+Frecuencia + la posición inicial 
+an + b
+*/
+
+ol li:nth-child(2n+2) {
+  background-color: gold;
+}
+
+ol li:nth-last-child(4) {
+  background-color: hotpink;
+}

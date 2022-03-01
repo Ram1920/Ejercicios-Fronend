@@ -1,0 +1,10 @@
+@import url("vars.css");
+
+
+.bg_fifth {
+    background-color: var(--fifth);
+}
+
+.color {
+    color: var(--fifth);
+}

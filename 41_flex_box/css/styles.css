@@ -1,0 +1,30 @@
+:root {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    background-color: steelblue;
+    display: flex;
+    height: 200px;
+    /* flex-direction: row;*/
+    width: 200px; 
+    flex-wrap: wrap;
+
+    /* flex-flow: row wrap;  */
+
+    /* Alineación horizontal (eje principal)*/
+    /* justify-content: center; */
+
+    /* Alineación vertical (eje secundario)*/
+    align-content: flex-end;
+}
+
+.item {
+    width: 50%;
+    height: 50px;
+    /* margin: 10px; */
+    color: white;
+    /* border: 2px solid black; */
+    background-color: #808080;
+}

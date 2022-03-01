@@ -1,0 +1,34 @@
+h1,h2 {
+    color: #dc143c;
+}
+
+p {
+    color: #0000ff;
+}
+
+.sombra {
+    background-color: whitesmoke;
+    box-shadow: 5px 10px 4px 6px #888;
+}
+
+ul>li {
+    color: #daa520;
+    font-style: italic;
+}
+
+ol{
+    font-style: normal;
+}
+
+.text-danger,.sombra text-danger {
+    color: #dc143c;
+}
+
+.text-success, ol {
+    color: #008000;
+}
+
+p .badge-black {
+    background-color: black;
+    color: white;
+}

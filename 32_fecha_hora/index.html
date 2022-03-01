@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form
+      name="formulario"
+      method="post"
+      action="/send.php"
+      enctype="multipart/form-data" 
+
+      <!-- Campo de entrada de fecha -->
+      Selecciona la fecha deseada:
+      <input
+        type="date"
+        name="fecha"
+        min="2018-03-25"
+        max="2018-05-25"
+        step="2"
+      />
+
+      <!-- Campo de entrada de hora  -->
+      Selecciona la hora deseada:
+      <input
+        type="time"
+        name="hora"
+        min="18:00"
+        max="21:00"
+        step="3600"
+        list="times"
+      />
+
+      <datalist>
+        <option value="17:00:00"></option>
+        <option value="18:00:00"></option>
+        <option value="19:00:00"></option>
+        <option value="20:00:00"></option>
+        <option value="21:00:00"></option>
+        <option value="22:00:00"></option>
+      </datalist>
+
+      <!--Campo de entrada de mes-->
+      Selecciona el mes deseado:
+      <input
+        type="month"
+        name="mes"
+        value="2018-05"
+        min="2018-02"
+        max="2018-06"
+        step="2"
+      />
+
+      <!--Campo de entrada de semana-->
+      Selecciona la semana deseada:
+      <input
+        type="week"
+        name="semana "
+        value="2018-W18"
+        min="2018-W10"
+        max="2018-W20"
+        step="2"
+      />
+
+      <!--Botones de opcion-->
+      <p>
+        Sexo:
+        <input type="radio" name="genero" value="H" /> Hombre
+        <input type="radio" name="genero" value="M" /> Mujer
+      </p>
+
+      <!-- Casillas de berificacion (marcada por defecto)-->
+      <input type="checkbox" name="empresa" checked />
+      ¿Eres autonomo/empresa?
+      <br /><br />
+
+      <!--Lista de seleccion-->
+      Selecciona la opcion deseada:
+      <select name="combo" multiple>
+        <!-- Formato alternativo con atributo label-->
+        <optgroup label="Opciones basicas">
+          <option value="1" label="Opcion 1"></option>
+        </optgroup>
+        <optgroup label="Opciones avanzadas">
+          <option value="2" label="Opcion 2"></option>
+          <option value="3" label="Opcion 3"></option>
+        </optgroup>
+      </select>
+      <br /><br />
+      <!-- Campo de texto combinado con lista de opciones-->
+      <input type="text" list="items" />
+      <!-- Lista de opciones -->
+      <datalist id="items">
+        <option value="1">Opcion 1</option>
+        <option value="2">Opcion 2</option>
+        <option value="3">Opcion 3</option>
+      </datalist>
+
+      <!-- Seleccion de color-->
+      Selcciona el color deseado:
+      <input type="color" name="color" value="#1BF44A" />
+
+      <!-- No olvides el enctype -->
+      <!-- Campo de seleccion de archivo -->
+      Adjunta tu archivo:
+      <input type="file" name="adjunto" accept=".pdf,.jpg,.png" multiple /> 
+  
+      <!-- Agrupacion de campos -->
+      <fieldset>
+        <legend>Datos Personales</legend>
+
+        <!-- Campo de texto -->
+        Nombre de usuario: 
+        <input type="text" name="nombre" placeholder="por ej: John Smith" tabindex="2"/>
+        <input type="text" name="nombre" placeholder="por ej: John Smith" tabindex="3"/>
+
+        <!-- Campo numerico -->
+        Edad: 
+        <input type="number" name="edad" min="18" max="100" placeholder="18" tabindex="1"/>
+
+        <!-- Boton de opcines -->
+        Sexo:
+        <input type="radio" name="sexo" value="H"/> Hombre 
+        <input type="radio" name="sexo" value="M"/> Mujer
+      </fieldset>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+a {
+    display: block;
+    width: 100px;
+    line-height: 40px;
+    padding-left: 10px;
+}
+a:link {
+    color: red;
+    font-weight: bold;
+}
+a:visited {
+    color: green;
+    font-weight: bold;
+}
+a:hover {
+    background-color: red;
+    padding: 2px;
+    color: white;
+    text-decoration: none;
+}

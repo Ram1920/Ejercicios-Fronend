@@ -1,0 +1,55 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Nunito", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
+}
+p {
+  margin-bottom: 20px;
+}
+form {
+  padding-top: 30px;
+}
+
+h1,
+label,
+.footer {
+  font-weight: bold;
+  font-family: "Nunito", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+span {
+  position: relative;
+}
+span::after {
+  position: absolute;
+  left: 0px;
+  top: 25px;
+  color: #808080;
+}
+#nombre::after {
+  content: "First name";
+}
+#apellido::after {
+  content: "Last name";
+}
+
+#code::after {
+  content: "Area Code";
+}
+
+#phone::after {
+  content: "Phone Number";
+}
+
+body {
+  margin: 100px;
+  padding: 20px;
+  border: 2px solid #b4b2b2;
+  box-shadow: 2px 2px 2px 2px #b4b2b2;
+}
+
+input {
+  border: 1px solid #ebebeb;
+}

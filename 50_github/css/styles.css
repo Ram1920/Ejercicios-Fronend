@@ -1,0 +1,58 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    background: #a5a5af;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #015249;
+    color: #fff;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+
+.cuadrado {
+    width: 25%;
+    height: 370px; 
+}
+
+input {
+    padding: 5px;
+    margin: 10px;
+    width: 16%;
+    background:linear-gradient(#d6dad5,#a5a5af);
+    border-radius: 5px;
+}
+
+.rectangulo {
+    width: 44%;
+    height: 370px;
+}
+
+.cuadrado, .rectangulo {
+    margin-top: 10px;  
+    box-shadow: 1px 1px 1px 1px #497e67;
+    background-color: #57bc90;
+}
+
+h3, p{
+    padding: 10px;
+}
+
+h3, input {
+    font-weight: bold;  
+}

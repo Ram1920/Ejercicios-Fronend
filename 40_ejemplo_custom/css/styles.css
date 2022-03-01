@@ -1,0 +1,6 @@
+@import url('../../theme/index.css');
+@import url('local_vars.css');
+
+.bg-blue{
+    background: var(--color-blue);
+}

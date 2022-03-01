@@ -1,0 +1,15 @@
+td {
+    border: 1px solid #000;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+}
+
+tr:nth-child(3n+2) {
+    background-color: crimson;
+}

@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0; 
+ }
+ .container {
+     background-color: steelblue;
+     width: 600px;
+     height: 100vh;
+     margin: auto;
+     display: flex; 
+     flex-flow: row nowrap;
+ 
+ }
+ .item{
+     background-color: seagreen;
+
+     width: 100px; /*Ignorado*/
+     height: 100px; 
+     color: white;
+     font-size: x-large;
+
+     /* Tamaño base -> row(width) column(height) */
+     flex-basis:200px;
+     /* ¿ Cuanto voy a crecer ?*/
+     flex-grow: 1;
+ }
+ .item:nth-child(even){
+     background-color: slateblue;
+ }
+ 
+
+ /* 
+ Espacio Total: 600px;
+ Espacio disponible : 600px - 2*(200px) = 200px
+ Sumatoria del flex-grow : 2;
+
+ Unidad de crecimiento : 200px/ 2 = 100px; 
+ 
+ */

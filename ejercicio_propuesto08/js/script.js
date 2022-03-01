@@ -1,0 +1,9 @@
+/* CURSO DE HISTORIA */
+
+// COSTANTES 
+const CREDITOS = 3, P1 = 0.3, PF = 0.4;
+
+// FUNCIONES
+
+//MAIN
+

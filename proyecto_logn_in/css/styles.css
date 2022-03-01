@@ -1,0 +1,9 @@
+@import url("vars.css");
+
+.bg_fourth {
+    background-color: var(--fourth);
+}
+
+.cl_fourth {
+    color: var(--fourth);
+}

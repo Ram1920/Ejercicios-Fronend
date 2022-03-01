@@ -1,0 +1,86 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.base {
+    margin: auto;
+    height: 70vh;
+    width: 100vh;
+    background: #91c4eb;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-content: stretch;
+}
+
+.rectangulos {
+    background-color: #ffd84c;
+}
+
+.rectangulos:nth-child(1) {
+    height: 90px;
+    width: 200px;
+    margin: 10px;
+}
+
+.rectangulos:nth-child(2) {
+    height: 90px;
+    width: 400px;
+    margin: 10px;
+}
+
+.rectangulos:nth-child(3) {
+    height: 90px;
+    width: 90px;
+    margin: 10px;
+}
+
+.rectangulos:nth-child(4) {
+    height: 90px;
+    width: 90px;
+    margin: 10px;
+}
+
+.rectangulos:nth-child(5) {
+    height: 90px;
+    width: 90px;
+    margin: 10px;
+
+}
+
+.rectangulos:nth-child(6) {
+    height: 90px;
+    width: 90px;
+    margin: 10px;
+}
+
+.rectangulos:nth-child(7) {
+        height: 90px;
+        width: 180px;
+        margin: 10px;
+}
+
+.rectangulos:nth-child(8) {
+    height: 210px;
+    width: 210px;
+    margin: 10px;
+}
+
+.rectangulos:nth-child(9) {
+    height: 210px;
+    width: 300px;
+    margin: 10px;
+}
+
+.rectangulos:nth-child(10) {
+    height: 210px;
+    width: 70px;
+    margin: 10px;
+}
+
+
+
+
+
+
